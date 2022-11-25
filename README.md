@@ -8,10 +8,11 @@
 - 3074 // CTRL + Z
 - 30000 - 30009 // CTRL + X
 - 27000 - 27100 // CTRL + C
-- ALT + TAB + SPACE Functionality
+- ALT + TAB + SPACE Function
 
-**Extra application**
+**Extra application/Functionality**
 - Game pauser (Used to prevent Joining Allies in Destiny 2)
+- DiscordRPC
 
 **When the application is closed**
 - Firewall rules are automatically deleted.
@@ -23,3 +24,4 @@
 - This was originally built off D2SoloEnabler by DrNoLife.
 
 ![image](https://user-images.githubusercontent.com/108382118/203904620-516ca2aa-1154-4d80-b430-a2239db374b9.png)
+![image](https://user-images.githubusercontent.com/108382118/203906543-bdb4455e-8a02-4ea0-8e02-130e5639a3a7.png)
