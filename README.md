@@ -10,7 +10,7 @@
 - 27000 - 27100 // CTRL + C
 - ALT + TAB + SPACE Function
 
-**Extra application/Functionality**
+**Extra Application/Functionality**
 - Game pauser (Used to prevent Joining Allies in Destiny 2)
 - DiscordRPC
 
