@@ -1,0 +1,26 @@
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\Netlimiter by woof.exe.config
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\Netlimiter by woof.exe
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\Netlimiter by woof.pdb
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\FirewallManager.dll
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\Hotkeys.dll
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\Microsoft.Win32.Registry.dll
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\Newtonsoft.Json.dll
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\System.Security.AccessControl.dll
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\System.Security.Principal.Windows.dll
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\bin\Release\Newtonsoft.Json.xml
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\WoofLimiter.csproj.AssemblyReference.cache
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\WoofLimiter.csproj.SuggestedBindingRedirects.cache
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\NetlimiterV2.baml
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\resources\resources.baml
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\NetlimiterV2.g.cs
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\App.g.cs
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\Netlimiter by woof_MarkupCompile.cache
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\Netlimiter by woof_MarkupCompile.lref
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\App.baml
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\Netlimiter by woof.g.resources
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\Netlimiter.Properties.Resources.resources
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\WoofLimiter.csproj.GenerateResource.cache
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\WoofLimiter.csproj.CoreCompileInputs.cache
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\WoofLimiter.csproj.CopyComplete
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\Netlimiter by woof.exe
+C:\Users\woof\Desktop\WoofLimiter\WoofLimiter\obj\Release\Netlimiter by woof.pdb

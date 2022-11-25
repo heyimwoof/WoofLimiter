@@ -1,0 +1,116 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <!-- Hyperlink button -->
+  <Style x:Key="HyperlinkButton" TargetType="Button">
+    <Setter Property="SnapsToDevicePixels"  Value="true" />
+    <Setter Property="OverridesDefaultStyle" Value="true" />
+    <Setter Property="Background" Value="Transparent"/>
+    <Setter Property="Foreground" Value="White"/>
+    <Setter Property="FontFamily" Value="Roboto"/>
+    <Setter Property="FontSize" Value="12"/>
+    <Setter Property="Cursor" Value="Hand"/>
+    <Setter Property="Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="Button">
+          <ContentPresenter TextBlock.Foreground="{TemplateBinding Foreground}"
+                            Margin="2"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            RecognizesAccessKey="True" />
+          <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Foreground" Value="Red"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+              <Setter Property="Foreground" Value="Red"/>
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+
+  <!-- Bungie button -->
+  <Style x:Key="BungieToggleButton" TargetType="ToggleButton">
+    <Setter Property="SnapsToDevicePixels"  Value="true" />
+    <Setter Property="OverridesDefaultStyle" Value="true" />
+    <Setter Property="Background" Value="#18FFFFFF"/>
+    <Setter Property="Foreground" Value="#9AFFFFFF"/>
+    <Setter Property="FontFamily" Value="Roboto"/>
+    <Setter Property="FontSize" Value="16"/>
+    <Setter Property="Cursor" Value="Hand"/>
+    <Setter Property="Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="ToggleButton">
+          <Border Name="border"
+                  Background="{TemplateBinding Background}"
+                  BorderBrush="White"
+                  BorderThickness="1">
+
+            <ContentPresenter TextBlock.Foreground="{TemplateBinding Foreground}"
+                              Margin="2"
+                              HorizontalAlignment="Center"
+                              VerticalAlignment="Center"
+                              RecognizesAccessKey="True" />
+          </Border>
+          <ControlTemplate.Triggers>
+
+            <MultiTrigger>
+              <MultiTrigger.Conditions>
+                <Condition Property="IsMouseOver" Value="false"/>
+                <Condition Property="IsChecked" Value="True"/>
+              </MultiTrigger.Conditions>
+
+              <Setter Property="TextBlock.Foreground" Value="White"/>
+              <Setter Property="BorderBrush" TargetName="border">
+                                <Setter.Value>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="white"/>
+                                        <GradientStop Color="white" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Background" TargetName="border">
+                                <Setter.Value>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FF007F2A"/>
+                                        <GradientStop Color="#FF00FF79" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </MultiTrigger>
+
+            <MultiTrigger>
+              <MultiTrigger.Conditions>
+                <Condition Property="IsMouseOver" Value="true"/>
+                <Condition Property="IsChecked" Value="True"/>
+              </MultiTrigger.Conditions>
+
+              <Setter Property="TextBlock.Foreground" Value="White"/>
+                            <Setter Property="BorderBrush" TargetName="border">
+                                <Setter.Value>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="white"/>
+                                        <GradientStop Color="white" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Background" TargetName="border" Value="#31363b"/>
+            </MultiTrigger>
+
+            <MultiTrigger>
+              <MultiTrigger.Conditions>
+                <Condition Property="IsMouseOver" Value="true"/>
+                <Condition Property="IsChecked" Value="false"/>
+              </MultiTrigger.Conditions>
+
+              <Setter Property="Background" TargetName="border" Value="#31363b"/>
+            </MultiTrigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+
+</ResourceDictionary>
